@@ -1,0 +1,57 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Profile</title>
+    <!--Stylesheets-->
+    <link rel="stylesheet" href="chat.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="index.html">Profile</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="main.html">All Chats</a>
+                </li>
+            </ul>
+        </div>
+
+    </nav>
+
+        <main>
+            <div class="container">
+                <h3 class="margin-top-5 margin-bottom-5">Profile</h3>
+                <form>
+                    <div class="row">
+                        <div class="col-md-6 col-sm-12">
+                            <div class="form-group">
+                                <label for="image">Image</label>
+                                <input type="file" class="form-control-file" id="image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <label for="content">Name</label>
+                       <input type="text" class="form-control" id="newchattext" aria-describedby="chattext" placeholder="Enter Name">
+                    </div>
+                    <div class="row">
+                        <label for="content">Mobile Number</label>
+                       <input type="text" class="form-control" id="newchattext" aria-describedby="chattext" placeholder="Mobile">
+                    </div>
+                    <div class="form-group">
+                        <label for="content">Status</label>
+                        <textarea type="text" class="form-control" id="content" rows="10" required></textarea>
+                    </div>
+                    <div class="d-flex justify-content-between margin-bottom-5">
+                        <button type="submit" class="btn btn-primary">Save</button>
+                    </div>
+                </form>
+            </div>
+        </main>
+</body>
+
+</html>
